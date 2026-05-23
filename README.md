@@ -151,23 +151,12 @@ Cuándo usarlo:
 
 Cambios de mantenimiento o soporte que no son feature ni bugfix.
 
-Incluye:
-
-assets (imágenes, favicon)
-
-config
-
-scripts
-
-limpieza
-
-tooling
-
-estructura de archivos
+Incluye: assets (imágenes, favicon), config, scripts, limpieza, tooling, estructura de archivos.
 
 Ejemplos:
 
 chore: agrega favicon y logos
+
 chore: organiza estructura de assets
 
 <br>
@@ -191,6 +180,8 @@ Ejemplos:
 build: ajusta configuración de webpack
 
 build: actualiza dependencias del proyecto
+
+<br>
 
 ### wip (uso temporal)
 
