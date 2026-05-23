@@ -101,15 +101,15 @@ git push origin --delete feature/vX.Y
 
 ## Recordatorio rápido
 
-Commits por bloque lógico
+- Commits por bloque lógico.
 
-Mensajes claros (add:, fix:, docs: o wip:)
+- Mensajes claros (add:, fix:, docs: o wip:).
 
-Push cuando te sirva (backup / continuidad)
+- Push cuando te sirva (backup / continuidad).
 
-Merge recién cuando esté cerrada la versión
+- Merge recién cuando esté cerrada la versión.
 
-Docs antes del tag
+- Docs antes del tag.
 
 <br>
 
