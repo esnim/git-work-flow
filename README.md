@@ -4,32 +4,42 @@ git checkout develop
 
 git pull origin develop
 
+
 ---
+
 
 ## Crear la feature branch
 
 git checkout -b feature/vX.Y
 
+
 ---
+
 
 ## Opcional (backup temprano)
 
 git push -u origin feature/vX.Y
 
+
 ---
+
 
 ## Realizar cambios
 
 git add .
 git commit -m "feat"
 
+
 ---
+
 
 ## Enviar cambios a GitHub
 
 git push origin feature/vX.Y
 
+
 ---
+
 
 ## Continuar trabajando (backup rápido)
 
@@ -45,13 +55,17 @@ Sirve como backup inmediato.
 
 Más adelante se pueden hacer commits prolijos (feat, fix, docs).
 
+
 ---
+
 
 ## Ver commits
 
 git log --oneline -5
 
+
 ---
+
 
 ## Cerrar una versión
 
@@ -71,7 +85,9 @@ git branch -d feature/vX.Y
 
 git push origin --delete feature/vX.Y
 
+
 ---
+
 
 ## Recordatorio rápido
 
@@ -85,7 +101,9 @@ Merge recién cuando esté cerrada la versión
 
 Docs antes del tag
 
+
 ---
+
 
 ## Referencias
 
@@ -93,7 +111,9 @@ Docs antes del tag
 - [Git branching strategies](https://www.atlassian.com/git/tutorials/using-branches/merge-strategy)
 - [Git tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 
+
 ---
+
 
 ## Tipos de commits recomendados
 
@@ -103,11 +123,15 @@ Cuándo usarlo:
 
 Agrega una funcionalidad nueva o amplía una existente.
 
+
+
 ### fix
 
 Cuándo usarlo:
 
 Corrige un bug o un comportamiento incorrecto.
+
+
 
 ### docs
 
@@ -115,17 +139,23 @@ Cuándo usarlo:
 
 Cambios solo en documentación (.md, README, notas).
 
+
+
 ### style
 
 Cuándo usarlo:
 
 Cambios de estilo visual o formato sin afectar lógica.
 
+
+
 ### refactor
 
 Cuándo usarlo:
 
 Reorganización de código sin cambiar comportamiento.
+
+
 
 ### chore
 
@@ -152,11 +182,15 @@ Ejemplos:
 chore: agrega favicon y logos
 chore: organiza estructura de assets
 
+
+
 ### test (opcional)
 
 Cuándo usarlo:
 
 Agrega o modifica tests.
+
+
 
 ### build (opcional)
 
@@ -177,6 +211,7 @@ Cuándo usarlo:
 Trabajo en progreso que no está listo todavía.
 
 ⚠️ Recomendado solo en features, no en develop/main.
+
 
 
 ## Regla práctica final (para no dudar)
