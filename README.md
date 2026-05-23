@@ -27,6 +27,7 @@
 ## Realizar cambios
 
 ```git add .```
+
 ```git commit -m "feat"```
 
 
