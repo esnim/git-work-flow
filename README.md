@@ -1,16 +1,16 @@
 ## Iniciar versión
 
-git checkout develop
+```git checkout develop```
 
-git pull origin develop
+```git pull origin develop```
 
 
 ---
 
 
-## Crear la feature branch
+## Crear una feature branch
 
-git checkout -b feature/vX.Y
+```git checkout -b feature/vX.Y```
 
 
 ---
@@ -18,7 +18,7 @@ git checkout -b feature/vX.Y
 
 ## Opcional (backup temprano)
 
-git push -u origin feature/vX.Y
+```git push -u origin feature/vX.Y```
 
 
 ---
@@ -26,8 +26,8 @@ git push -u origin feature/vX.Y
 
 ## Realizar cambios
 
-git add .
-git commit -m "feat"
+```git add .```
+```git commit -m "feat"```
 
 
 ---
@@ -35,7 +35,7 @@ git commit -m "feat"
 
 ## Enviar cambios a GitHub
 
-git push origin feature/vX.Y
+```git push origin feature/vX.Y```
 
 
 ---
@@ -43,7 +43,7 @@ git push origin feature/vX.Y
 
 ## Continuar trabajando (backup rápido)
 
-git add . && git commit -m "wip: respaldo de trabajo en progreso" && git push
+```git add . && git commit -m "wip: respaldo de trabajo en progreso" && git push```
 
 Notas:
 
@@ -61,7 +61,7 @@ Más adelante se pueden hacer commits prolijos (feat, fix, docs).
 
 ## Ver commits
 
-git log --oneline -5
+```git log --oneline -5```
 
 
 ---
@@ -69,21 +69,21 @@ git log --oneline -5
 
 ## Cerrar una versión
 
-git checkout develop
+```git checkout develop```
 
-git pull origin develop
+```git pull origin develop```
 
-git merge feature/vX.Y
+```git merge feature/vX.Y```
 
-git push origin develop
+```git push origin develop```
 
-git tag -a vX.Y.0 -m "Release vX.Y.0"
+```git tag -a vX.Y.0 -m "Release vX.Y.0"```
 
-git push origin vX.Y.0
+```git push origin vX.Y.0```
 
-git branch -d feature/vX.Y
+```git branch -d feature/vX.Y```
 
-git push origin --delete feature/vX.Y
+```git push origin --delete feature/vX.Y```
 
 
 ---
