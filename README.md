@@ -5,9 +5,7 @@ git checkout develop
 git pull origin develop
 ```
 
-
----
-
+<br>
 
 ## Crear una feature branch
 
@@ -15,9 +13,7 @@ git pull origin develop
 git checkout -b feature/vX.Y
 ```
 
-
----
-
+<br>
 
 ## Opcional (backup temprano)
 
@@ -25,9 +21,7 @@ git checkout -b feature/vX.Y
 git push -u origin feature/vX.Y
 ```
 
-
----
-
+<br>
 
 ## Realizar cambios
 
@@ -36,9 +30,7 @@ git add .
 git commit -m "feat"
 ```
 
-
----
-
+<br>
 
 ## Enviar cambios a GitHub
 
@@ -46,9 +38,7 @@ git commit -m "feat"
 git push origin feature/vX.Y
 ```
 
-
----
-
+<br>
 
 ## Continuar trabajando (backup rápido)
 
@@ -66,9 +56,7 @@ Sirve como backup inmediato.
 
 Más adelante se pueden hacer commits prolijos (feat, fix, docs).
 
-
----
-
+<br>
 
 ## Ver commits
 
@@ -76,9 +64,7 @@ Más adelante se pueden hacer commits prolijos (feat, fix, docs).
 git log --oneline -5
 ```
 
-
----
-
+<br>
 
 ## Cerrar una versión
 
@@ -93,9 +79,7 @@ git branch -d feature/vX.Y
 git push origin --delete feature/vX.Y
 ```
 
-
----
-
+<br>
 
 ## Recordatorio rápido
 
@@ -109,9 +93,7 @@ Merge recién cuando esté cerrada la versión
 
 Docs antes del tag
 
-
----
-
+<br>
 
 ## Referencias
 
@@ -119,9 +101,7 @@ Docs antes del tag
 - [Git branching strategies](https://www.atlassian.com/git/tutorials/using-branches/merge-strategy)
 - [Git tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 
-
----
-
+<br>
 
 ## Tipos de commits recomendados
 
@@ -131,7 +111,7 @@ Cuándo usarlo:
 
 Agrega una funcionalidad nueva o amplía una existente.
 
-
+<br>
 
 ### fix
 
@@ -139,7 +119,7 @@ Cuándo usarlo:
 
 Corrige un bug o un comportamiento incorrecto.
 
-
+<br>
 
 ### docs
 
@@ -147,7 +127,7 @@ Cuándo usarlo:
 
 Cambios solo en documentación (.md, README, notas).
 
-
+<br>
 
 ### style
 
@@ -155,7 +135,7 @@ Cuándo usarlo:
 
 Cambios de estilo visual o formato sin afectar lógica.
 
-
+<br>
 
 ### refactor
 
@@ -163,7 +143,7 @@ Cuándo usarlo:
 
 Reorganización de código sin cambiar comportamiento.
 
-
+<br>
 
 ### chore
 
@@ -190,7 +170,7 @@ Ejemplos:
 chore: agrega favicon y logos
 chore: organiza estructura de assets
 
-
+<br>
 
 ### test (opcional)
 
@@ -198,7 +178,7 @@ Cuándo usarlo:
 
 Agrega o modifica tests.
 
-
+<br>
 
 ### build (opcional)
 
@@ -220,7 +200,7 @@ Trabajo en progreso que no está listo todavía.
 
 ⚠️ Recomendado solo en features, no en develop/main.
 
-
+<br>
 
 ## Regla práctica final (para no dudar)
 
