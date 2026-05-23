@@ -174,16 +174,35 @@ Trabajo en progreso que no está listo todavía.
 
 ## Regla práctica final (para no dudar)
 
-¿Agrega algo nuevo? → feat
-
-¿Arregla algo roto? → fix
-
-¿Solo docs? → docs
-
-¿Solo estilo visual? → style
-
-¿Reorganiza código? → refactor
-
-¿Assets / config / orden? → chore
-
-¿Incompleto? → wip
+<table>
+  <tbody>
+    <tr>
+      <td>¿Agrega algo nuevo?</td>
+      <td>feat</td>
+    </tr>
+    <tr>
+      <td>¿Arregla algo roto?</td>
+      <td>fix</td>
+    </tr>
+    <tr>
+      <td>¿Solo documentación?</td>
+      <td>docs</td>
+    </tr>
+    <tr>
+      <td>¿Solo estilo visual?</td>
+      <td>style</td>
+    </tr>
+    <tr>
+      <td>¿Reorganiza código?</td>
+      <td>refactor</td>
+    </tr>
+    <tr>
+      <td>¿Assets / config / orden?</td>
+      <td>chore</td>
+    </tr>
+    <tr>
+      <td>¿Incompleto?</td>
+      <td>wip</td>
+    </tr>    
+  </tbody>
+</table>
