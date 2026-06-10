@@ -91,10 +91,10 @@ git tag -a vX.Y.0 -m "Release vX.Y.0"
 git push origin vX.Y.0
 ```
 ```
-git branch -d feature/vX.Y
-```
-```
 git push origin --delete feature/vX.Y
+```
+```
+git branch -d feature/vX.Y
 ```
 
 <br>
