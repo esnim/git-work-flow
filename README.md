@@ -62,6 +62,20 @@ Más adelante se pueden hacer commits prolijos (feat, fix, docs).
 
 <br>
 
+## Ver rama actual
+```
+git branch --show-current
+```
+
+<br>
+
+## Listar archivos con cambios en la rama (M = modificado, A = agregado, D = eliminado)
+```
+git diff --name-status dev...HEAD
+```
+
+<br>
+
 ## Ver commits
 
 ```
