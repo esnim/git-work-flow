@@ -80,8 +80,15 @@ git checkout -b nombre-de-la-rama origin/nombre-de-la-rama
 <br>
 
 ## Listar archivos con cambios en la rama (M = modificado, A = agregado, D = eliminado)
+
+Comparar con la rama dev local:
 ```
 git diff --name-status dev...HEAD
+```
+
+Comparar con la rama dev remota:
+```
+git diff --name-status origin/dev...HEAD
 ```
 
 <br>
