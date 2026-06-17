@@ -74,7 +74,7 @@ git branch --show-current
 git fetch origin
 ```
 ```
-git checkout -b origin/nombre-de-la-rama
+git checkout -b nombre-de-la-rama origin/nombre-de-la-rama
 ```
 
 <br>
