@@ -69,6 +69,16 @@ git branch --show-current
 
 <br>
 
+## Traer una rama remota que no está local
+```
+git fetch origin
+```
+```
+git checkout -b origin/nombre-de-la-rama
+```
+
+<br>
+
 ## Listar archivos con cambios en la rama (M = modificado, A = agregado, D = eliminado)
 ```
 git diff --name-status dev...HEAD
