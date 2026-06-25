@@ -104,7 +104,7 @@ git log --oneline -5
 ## Ver cantidad de cambios (sirve para detectar conversión de saltos de línea)
 
 ```
-git diff --stat panel_de_control/mod_diseno/header/slide/template.php
+git diff --stat nombre-de-archivo
 ```
 
 <br>
