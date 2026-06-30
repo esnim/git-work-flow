@@ -106,6 +106,12 @@ git log --oneline -5
 ```
 git diff --stat nombre-de-archivo
 ```
+```
+git diff --numstat
+```
+```
+git diff --ignore-space-at-eol --ignore-cr-at-eol --numstat
+```
 
 <br>
 
